@@ -65,10 +65,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-// 去除chrome自动填充黄色背景
+/*去除chrome自动填充黄色背景*/
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
   box-shadow: 0 0 0 50px white inset;
-//-webkit-text-fill-color: #333;
+  /*-webkit-text-fill-color: #333;*/
 }
